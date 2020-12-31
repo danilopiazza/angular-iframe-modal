@@ -1,0 +1,7 @@
+<p>
+  <button class="btn btn-primary" (click)="openModal()">Open</button>
+</p>
+
+<div *ngIf="modalResult" class="alert alert-info" role="alert">
+    Modal dialog closed with result: {{ modalResult }}
+</div>
